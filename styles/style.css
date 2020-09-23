@@ -26,6 +26,10 @@ main{
     color: white;
     border: black 2px solid;
     border-radius: 15px;
+    transition: 3s ease-in-out;
+}
+main:hover{
+    transform: rotate3d(2, -1, -1, 3turn);
 }
 p{
     margin: 0;
